@@ -1,4 +1,5 @@
 .counter {
+    position: relative;
     border: 1px solid black;
     padding: 30px;
     width: 300px;
@@ -9,5 +10,19 @@
 
 .counter span.value {
     margin-left: 10px;
-    color: blue;
+}
+
+.counter .show-clock {
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 10px;
+    color: lightcoral;
+}
+
+.counter .show-clock:hover {
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
 }
